@@ -31,7 +31,7 @@ class bigint
     bigint operator<<(unsigned int n)const;
     bigint operator>>(unsigned int n)const;
     bigint &operator<<=(unsigned int n);
-    bigint &operator>>(unsigned int n);
+    bigint &operator>>=(unsigned int n);
     
     //shift with class 
     bigint operator<<(const bigint &other) const;
