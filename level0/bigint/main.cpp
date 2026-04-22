@@ -1,3 +1,5 @@
+#include "bigint.hpp"
+
 int main(void)
 {
 	const bigint a(42);
